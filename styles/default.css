@@ -9,7 +9,8 @@ figcaption
 }
 
 hr{
-border-top: 2px dashed;
+border-top: 5px dashed;
+border: 0px;
 }
 
 body
