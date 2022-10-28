@@ -17,6 +17,11 @@ body
     background-image: url('dozen_roses.jpg');
 }
 
+div{
+    width: 300px;
+    background-color: rgb(1,36,1);
+}
+
 main
 {
 margin-left: 20px;
