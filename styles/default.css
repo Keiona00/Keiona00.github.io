@@ -9,10 +9,10 @@ figcaption
 }
 
 hr{
-border: none;
 height: 2px;
 padding-right: 2px;
 padding-left: 2px;
+border-top: 1px dashed;
 }
 
 body
