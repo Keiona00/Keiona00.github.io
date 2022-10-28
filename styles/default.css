@@ -13,12 +13,12 @@ body
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: rgb(209, 174, 108);
-    background-color: rgb(1, 36, 1);
+   /* background-color: rgb(1, 36, 1);*/
     background-image: url('dozen_roses.jpg');
 }
 
 div{
-    width: 300px;
+    width: 80%;
     background-color: rgb(1,36,1);
 }
 
