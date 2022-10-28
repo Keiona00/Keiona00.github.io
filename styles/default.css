@@ -8,6 +8,12 @@ figcaption
     color: rgb(97, 255, 129)
 }
 
+hr{
+border: none;
+padding-right: 2px;
+padding-left: 2px;
+}
+
 body
 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
