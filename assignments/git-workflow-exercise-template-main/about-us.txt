@@ -13,7 +13,7 @@ Fortune 1000 companies.
 Catalyte founder Michael Rosenbaum was a Harvard economics and law fellow. As 
 an advisor in the Clinton White House, he proposed the theory that underserved
 urban populations contain just as many people with talent to succeed in the 
-emerging FIELD of software development as any other. They are just overlooked 
+emerging field of software development as any other. They are just overlooked 
 by a system that values pedigree rather than innate ABILITY.
 
 To prove this point, Michael built a big DATA engine that REMOVES BIASES from 
