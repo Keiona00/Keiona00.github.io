@@ -30,17 +30,17 @@
         <div data-include="components/footer.html"></div>
         <script src="scripts/HTMLInclude.js"></script>
         <script>
-            let firstNumber = document.getElementById("inputA");
-      let secondNumber = document.getElementById("inputB");
-      let answer = "";
-      let result = null;
+        let firstNumber = document.getElementById("inputA");
+        let secondNumber = document.getElementById("inputB");
+         let answer = "";
+        let result = null;
 
       const activity1 = () => {
         if (secondNumber.value != 0) {
           result = firstNumber.value / secondNumber.value;
           answer = `Answer: ${result}`;
         } else {
-          alert("You can't use 0, Dude!");
+          alert("Yo dude! You can't use 0!");
         }
         document.getElementById("output").innerHTML = answer;
       };
