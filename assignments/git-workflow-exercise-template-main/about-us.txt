@@ -11,7 +11,7 @@ a new talent pool of great software engineers, narrowing the talent gap for
 Fortune 1000 companies.
 
 Catalyte founder Michael Rosenbaum was a Harvard economics and law fellow. As 
-an advisor in the Clinton White House, he PROPOSED the theory that underserved
+an advisor in the Clinton White House, he proposed the theory that underserved
 urban POPULATIONS contain just as many people with talent to succeed in the 
 emerging FIELD of software development as any other. They are just overlooked 
 by a system that values pedigree rather than innate ABILITY.
