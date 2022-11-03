@@ -16,7 +16,7 @@ urban populations contain just as many people with talent to succeed in the
 emerging field of software development as any other. They are just overlooked 
 by a system that values pedigree rather than innate ability.
 
-To prove this point, Michael built a big data engine that REMOVES BIASES from 
+To prove this point, Michael built a big data engine that removes BIASES from 
 hiring and objectively selects CANDIDATES who have the potential to become 
 great software engineers. With 20 years of data proving that great software 
 developers can come from anywhere, Catalyte continues to CREATE local, 
