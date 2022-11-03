@@ -20,5 +20,5 @@ To prove this point, Michael built a big data engine that removes biases from
 hiring and objectively selects candidates who have the potential to become 
 great software engineers. With 20 years of data proving that great software 
 developers can come from anywhere, Catalyte continues to create local, 
-cost-effective, predictable, diverse and SUSTAINABLE technology workforces 
+cost-effective, predictable, diverse and sustainable technology workforces 
 aligned with customers’ software development and BUSINESS priorities.
