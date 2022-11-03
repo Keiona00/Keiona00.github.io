@@ -3,6 +3,11 @@ h1, h2, nav, figure, figcaption, footer
     text-align: center;
 }
 
+h3
+{
+    color:rgb(65, 39, 15)
+}
+
 figcaption
 {
     color: rgb(97, 255, 129)
