@@ -24,6 +24,13 @@
         <br />
         <p id="output">Answer:</p>
             <h3>Activity 2</h3>
+            <label for="temperature">Enter temperature</label>
+        <input type="number" id="temperature" />
+
+        <button type="button" onclick="clothingHelper()">Submit</button>
+        <p id="helpingStatement"></p>
+      </section>
+      <section class="general-section">
             <h3>Activity 3</h3>
             <h3>Activity 4</h3>
         </main>
@@ -43,6 +50,19 @@
           alert("Yo dude! You can't use 0!");
         }
         document.getElementById("output").innerHTML = answer;
+      };
+      let temperature = document.getElementById("temperature");
+      let helpingStatement = "";
+
+      const clothingHelper = () => {
+        if (temperature.value > 80) {
+          helpingStatement = "Get your booty shorts out!It's hot!";
+        } else {
+          helpingStatement = "Go get 5 jackets and 4 shirts! It's cold!";
+        }
+
+        document.getElementById("helpingStatement").innerHTML =
+          helpingStatement;
       };
         </script>
         </div>
