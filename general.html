@@ -43,6 +43,16 @@
                  console.log('Eat cassava');
               }
             <h3>Activity 4</h3>
+            <label for="currentGallons">Current gallons of gas:</label>
+        <input type="number" id="currentGallons" />
+        <br />
+        <label for="fullTankCapacity">Full tank capacity:</label>
+        <input type="number" id="fullTankCapacity" />
+        <br />
+        <br />
+        <button type="button" onclick="pumpGasTillFull()">Pump Gas</button>
+        <br />
+        <p id="done"></p>
         </main>
         <div data-include="components/footer.html"></div>
         <script src="scripts/HTMLInclude.js"></script>
@@ -92,6 +102,21 @@
             diceStatement = "dude, eat at cassava";
         }
         document.getElementById("diceStatement").innerHTML = diceStatement;
+      };
+
+      const pumpGasTillFull = () => {
+        let currentGallons = document.getElementById("currentGallons").value;
+        let totalCapacityOfTank =
+          document.getElementById("fullTankCapacity").value;
+        let totalAmountPumped = 0;
+        let finalResult = "";
+        while (currentGallons <= totalCapacityOfTank) {
+          console.log(currentGallons);
+          currentNumberOfGallons++;
+        }
+        totalAmountPumped = totalCapacityOfTank - currentGallons;
+        finalResult = `Done. Total amount of gas pumped is ${totalAmountPumped} gallons.`;
+        document.getElementById("done").innerHTML = finalResult;
       };
         </script>
         </div>
