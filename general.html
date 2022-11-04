@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keiona Leaks' Killing Leopard ♣ CP-C0-01 ♣ Brownies</title>
+    <title>Keiona Leaks' Killing Leopard ♣ CP-C0-01 ♣ General Assignments</title>
     <link href="styles/default.css" rel="stylesheet"/>
     </head>
     <body>
@@ -30,6 +30,18 @@
             <button type="button" onclick="clothingHelper()">Submit</button>
              <p id="helpingStatement"></p>
             <h3>Activity 3</h3>
+                switch(dieRoll) {
+                 case 1:
+                 case 2: 
+                 console.log('Eat maize');
+                 break;
+                 case 3:
+                 case 4:
+                 console.log('Eat rice');
+                 break;
+                 default:
+                 console.log('Eat cassava');
+              }
             <h3>Activity 4</h3>
         </main>
         <div data-include="components/footer.html"></div>
@@ -61,6 +73,25 @@
 
         document.getElementById("helpingStatement").innerHTML =
           helpingStatement;
+      };
+
+      const rollDice = () => {
+        let dieRoll = Math.floor(Math.random() * 6);
+        let diceStatement = "";
+
+        switch (dieRoll) {
+          case 1:
+          case 2:
+            diceStatement = "You'll definitely want to eat maize";
+            break;
+          case 3:
+          case 4:
+            diceStatement = "Bro, eat rice";
+            break;
+          default:
+            diceStatement = "dude, eat at cassava";
+        }
+        document.getElementById("diceStatement").innerHTML = diceStatement;
       };
         </script>
         </div>
