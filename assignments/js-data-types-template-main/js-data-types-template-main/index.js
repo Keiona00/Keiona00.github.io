@@ -57,10 +57,10 @@ let productOutput = "The product is: " + product
 const dataType12 = 'number';
 
 // 13.  -10 + '5'
-const dataType13 = 'number';
+const dataType13 = 'string';
 
 // 14.  '-10' + 5
-const dataType14 = 'number';
+const dataType14 = 'string';
 
 // 15.  -10 - '5'
 const dataType15 = 'number';
@@ -72,4 +72,4 @@ const dataType16 = 'number';
 const dataType17 = 'number';
 
 // 18.  -10 * 'a1'
-const dataType18 = 'number';
+const dataType18 = 'string';
