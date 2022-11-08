@@ -9,7 +9,7 @@
     
     Don't forget to save this file and refresh your browser before running the tests again!
 */
-
+console.log("yuh")
 // 1.   Declare a variable named "tree". Use a keyword that allows reassignment,
 //      but not re-declaration
 let tree;
