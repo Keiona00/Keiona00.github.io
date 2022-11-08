@@ -72,4 +72,4 @@ const dataType16 = 'number';
 const dataType17 = 'number';
 
 // 18.  -10 * 'a1'
-const dataType18 = 'string';
+const dataType18 = 'NaN';
