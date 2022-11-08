@@ -29,7 +29,7 @@ const defaultVariableValue = 'undefined';
 // 7.   Assign lackOfValue to be the data type that a developer should
 //      assign when a value is not known ahead of time. Your answer should
 //      not be a string
-let lackOfValue = "null";
+let lackOfValue = null;
 
 // 8.   What would happen if you tried to re-assign alaskaStateFlower to
 //      'Magnolia'? Uncomment the variable that is correct
@@ -44,7 +44,7 @@ const operandTwo = 42
 let product = numberOfChoice * operandTwo;
 // 11.  Create a variable named "productOutput" and give it a string value with
 //      the following sentence: "The product is: <answer_here>", ensuring that <answer_here> is your product variable
-let productOutPut = "The product is: " + product
+let productOutput = "The product is: " + product
 ///////////////////////
 // TYPE CONVERSIONS! //
 // In the following section, you should identify the data type that will result when 
