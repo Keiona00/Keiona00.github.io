@@ -3,9 +3,9 @@ h1, h2, nav, figure, figcaption, footer
     text-align: center;
 }
 
-title
+.title
 {
-    font-family: "Anton", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: "Anton", Georgia, Times, 'Times New Roman', serif
 }
 
 figcaption
@@ -21,7 +21,7 @@ background-color:rgb(114, 109, 54);
 
 body
 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:"Merriweather", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: rgb(209, 174, 108);
     background-color: rgb(65, 39, 15);
