@@ -3,6 +3,11 @@ h1, h2, nav, figure, figcaption, footer
     text-align: center;
 }
 
+title
+{
+    font-family: Better Change Demo;
+}
+
 figcaption
 {
     color: rgb(97, 255, 129)
